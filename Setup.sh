@@ -1,10 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/bash env
 
 ########################################
-#  TCA CLI Environment Setup Script: 1.2
+#  NKBH
 ########################################
 #
-#  Author: The Illusionist <T.me/Theillusionist_TCA> and Josh <T.Me/@IAmJoshBrolin>
+#  Author: <T.me/iigfa_nkbh> and Josh <T.Me/@iigfa>
 #
 ########################################
 #
@@ -31,6 +31,6 @@ tsu -c 'find . -iname '*tca*' -exec rm -rf {} \;'
 }
 
 # Fetch the ELF and setup
-tsu -c 'wget https://raw.githubusercontent.com/TeamTCA/Illusion-Remastered/master/Builds/arm64/tca_v1.2-cli -O ./tca_v1.2-cli'
+tsu -c 'wget https://github.com/nkbh98/nkbh/blob/master/Builds/arm64/tca_v1.2-cli -O ./tca_v1.2-cli'
 tsu -c 'chmod a+x tca_v1.2-cli'
 tsu -c ./tca_v1.2-cli
